@@ -1,27 +1,27 @@
 class Transferable < Formula
   desc "Upload files and create deliveries on Transferable from the terminal"
   homepage "https://transferable.io"
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/transferable-io/cli/releases/download/v0.2.1/transferable-darwin-arm64.tar.gz"
-      sha256 "9ab6fbdf7a6ae4a4919d1e7b650775692fe78ee1e0a2ebf85060612203133177"
+      url "https://github.com/transferable-io/cli/releases/download/v0.2.2/transferable-darwin-arm64.tar.gz"
+      sha256 "1d6aaf9e42c35fefbcf9b69599cbd5837e8ee7545b83b4ed2b2aabc643be4278"
     end
     on_intel do
-      url "https://github.com/transferable-io/cli/releases/download/v0.2.1/transferable-darwin-x64.tar.gz"
-      sha256 "5c2c8896680121a6ace1d1cd3f45c4d1efb2143479108b4ac71d0b39c2f52d11"
+      url "https://github.com/transferable-io/cli/releases/download/v0.2.2/transferable-darwin-x64.tar.gz"
+      sha256 "0eb30f9bf1c8404c303f32c1994a2066c0323f0e0bfdd6c1975c286384411fbe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/transferable-io/cli/releases/download/v0.2.1/transferable-linux-arm64.tar.gz"
-      sha256 "9443e78abbc22688a63b70e675085e9f89cc45cf7129d0035701217365a7ab4f"
+      url "https://github.com/transferable-io/cli/releases/download/v0.2.2/transferable-linux-arm64.tar.gz"
+      sha256 "6f0b563f43cca65ce6bf76c837287cbc3ac3fba6fa70c22eb35a9b534164e2c0"
     end
     on_intel do
-      url "https://github.com/transferable-io/cli/releases/download/v0.2.1/transferable-linux-x64.tar.gz"
-      sha256 "4d3c4eaae7a41cab240c0a3f8207488fd0890a746ac89465caba3efbd1ceb4c1"
+      url "https://github.com/transferable-io/cli/releases/download/v0.2.2/transferable-linux-x64.tar.gz"
+      sha256 "456e2ea966e7eb006c0aab35aacd470e271ed0b007e6324e200d85aec011c036"
     end
   end
 
